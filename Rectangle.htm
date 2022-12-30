@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Rabab Fadel</title>
+</head>
+<body>
+<h2 style=color:#0093C6>Rectangle</h2>
+<canvas id="myCanvas" width="350" height="250" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.rect(50,80,220,100);
+ctx.fillStyle="rgba(192,237,253)";
+ctx.fill();
+ctx.fillStyle="rgba(192,237,253)";
+ctx.fillRect=(50,80,220,100);
+ctx.strokeStyle="rgba(0,189,255)";
+ctx.strokeRect(50,80,220,100);
+ctx.closePath();
+ctx.stroke();
+</script>
+</body>
+</html>

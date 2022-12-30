@@ -5,3 +5,5 @@ education/collegiate
 the age/ 19
 
 my hobby/ art and meditation
+
+birtday/20-2-2004
